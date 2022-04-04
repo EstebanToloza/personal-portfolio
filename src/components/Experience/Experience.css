@@ -33,8 +33,8 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
-    padding: 1.5rem;
+    height: 150px;
+    padding: 1.3rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
     transition: background-color 200ms ease-in-out;
@@ -76,6 +76,11 @@
     font-family: var(--primaryFont);
     font-size: 1.15rem;
     font-weight: 600;
+}
+
+.experience-details > span {
+    font-family: var(--primaryFont);
+    font-size: 0.85rem;
 }
 
 .experience-image {

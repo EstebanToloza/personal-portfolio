@@ -9,6 +9,7 @@
     'Next Js',
     'Node JS',
     'MongoDB',
+    'MySQL',
     'Wordpress',
 ]
 
