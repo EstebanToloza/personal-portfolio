@@ -12,7 +12,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'MenuApp',
-        projectDesc: 'Menu digital que permite importar los productos desde Google Sheets y realizar el pedido vía Whatsapp (en desarrollo)',
+        projectDesc: 'Menu digital que permite importar los productos desde Google Sheets y realizar el pedido vía Whatsapp (en desarrollo).',
         tags: ['React', 'CSS', 'Context API'],
         code: 'https://github.com/EstebanToloza/menuapp-qr',
         demo: 'https://estebantoloza.github.io/menuapp-qr/',
@@ -21,7 +21,7 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'Sitio institucional',
-        projectDesc: 'Sitio institucional para cooperativa de fletes de la ciudad de Rosario',
+        projectDesc: 'Sitio institucional para cooperativa de fletes de la ciudad de Rosario.',
         tags: ['HTML', 'Bootstrap', 'JavaScript'],
         code: 'https://github.com/EstebanToloza/fletes-rosario',
         demo: 'https://rosariofletes.com/',
@@ -38,14 +38,14 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        projectName: 'React Filter',
+        projectDesc: 'Filtro de búsqueda en array de objetos con React y JavaScript',
+        tags: ['React', 'JavaScript'],
+        code: 'https://github.com/EstebanToloza/filtro-de-busqueda-de-objetos-con-React/tree/main/search-filter',
+        demo: 'https://filtro-de-busquedas-de-objetos-con-react.netlify.app/',
+        image: seven
     },
-    {
+    /* {
         id: 5,
         projectName: 'E-Commerce App',
         projectDesc: 'A Simple E-commerce application',
@@ -80,7 +80,7 @@ export const projectsData = [
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         image: eight
-    },
+    }, */
 ]
 
 
