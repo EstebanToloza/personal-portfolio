@@ -21,11 +21,11 @@ function App() {
       <Router>
         <ScrollToTop/>
         <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/blog" exact component={BlogPage} />
-          <Route path="/projects" exact component={ProjectPage} />
+          <Route path="/developer-portfolio/" exact component={Main} />
+          <Route path="/developer-portfolio/blog" exact component={BlogPage} />
+          <Route path="/developer-portfolio/projects" exact component={ProjectPage} />
 
-          <Redirect to="/" />
+          <Redirect to="/developer-portfolio/" />
         </Switch>
       </Router>
       <BackToTop />

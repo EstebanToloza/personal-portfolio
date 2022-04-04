@@ -69,7 +69,7 @@ function Projects() {
 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
-                                <Link to="/projects">
+                                <Link to="/developer-portfolio/projects">
                                     <button className={classes.viewAllBtn}>
                                         Ver más
                                         <HiArrowRight className={classes.viewArr} />
