@@ -1,23 +1,30 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'FreeCodeCamp',
+        course: 'Responsive Web Design - JavaScript Algorithms and Data Structures',
+        startYear: '2022',
+        endYear: 'Actualidad'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'CourseIt',
+        course: 'MERN Stack (MongoDB, Express, ReactJs, NodeJs)',
+        startYear: '2021',
+        endYear: '2021'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
+        institution: 'Escuela Argentina de Nuevas Tecnologías',
+        course: 'Programación fullstack con JavaScript',
+        startYear: '2020',
+        endYear: '2020'
+    },
+    {
+        id: 4,
+        institution: 'Google Activate',
+        course: 'Introducción al desarrollo Web I y II',
         startYear: '2019',
-        endYear: 'Present'
+        endYear: '2019'
     },
 ]
