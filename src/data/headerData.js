@@ -1,10 +1,10 @@
-import resume from '../assets/pdf/resume.pdf';
+import resume from '../assets/pdf/Esteban Toloza_resume.pdf';
 import avatar from '../assets/png/avatar.jpg'
 
 export const headerData = {
     name: 'Esteban Toloza',
-    title: "Web Developer",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia at justo eu commodo. Integer ipsum libero, blandit at rutrum quis, dictum eu ligula. Duis egestas consequat metus vitae molestie. ",
+    title: "Desarrollador Web",
+    description: "Hola! Soy un apasionado por resolver problemas usando las maravillosas herramientas que la tecnología pone a mi alcance. Trabajo en una empresa brindando soluciones de eCommerce, y aparte realizo proyectos de manera freelance. Si creés que puedo ayudarte en algo, no dudes en contactarme!",
     image: avatar,
     resumePdf: resume
 }

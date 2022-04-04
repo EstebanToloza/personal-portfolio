@@ -89,7 +89,7 @@ function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-evenly',
-            padding: '0 30px',
+            padding: '0 20px',
             boxSizing: 'border-box',
             border: '2px solid',
             borderColor: theme.primary,
@@ -106,9 +106,10 @@ function Navbar() {
         },
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
-            width: '50%',
+            width: '80%',
             fontSize: '1.3rem',
             fontWeight: 600,
+            paddingLeft: 10,
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.125rem',
             },
@@ -192,7 +193,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Home
+                                        Inicio
                                     </span>
                                 </div>
                             </NavLink>
@@ -208,7 +209,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        About
+                                        Acerca de
                                     </span>
                                 </div>
                             </NavLink>
@@ -226,13 +227,13 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Currículum
                                     </span>
                                 </div>
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left> //Services nav link
                             <NavLink
                                 to='/#services'
                                 smooth={true}
@@ -248,11 +249,11 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink
-                                to='/#blog'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -262,7 +263,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Proyectos
                                     </span>
                                 </div>
                             </NavLink>
@@ -278,7 +279,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <MdPhone className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        Contact
+                                        Contacto
                                     </span>
                                 </div>
                             </NavLink>
