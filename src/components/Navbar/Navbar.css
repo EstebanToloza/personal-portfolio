@@ -74,6 +74,9 @@
     .MuiDrawer-paper{
       border-radius: 0 !important;
     }
+    .switch-container {
+        right: 50px;
+    }
 }
 
 
