@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { styled } from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import { FormControlLabel } from '@mui/material';
@@ -56,18 +56,30 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 
 export default function CustomizedSwitch() {
-  const { setTheme } = useContext(ThemeContext);
+  const { setTheme, prevSelectedTheme } = useContext(ThemeContext);
+  const [switchChecked, setSwitchChecked] = useState(prevSelectedTheme === "dark" ? true : false);
 
+  useEffect(() => {
+    if(prevSelectedTheme === "dark") {
+      setSwitchChecked(true);
+      setTheme(themeData.secondaryTheme);
+    } else {
+      setSwitchChecked(false)
+      setTheme(themeData.defaultTheme);
+    }
+  }, [prevSelectedTheme])
+  
 
   const handleChange = (e) => {
     const isChecked = e.target.checked;
     if (isChecked) {
-      setTheme(themeData.secondaryTheme)
+      setTheme(themeData.secondaryTheme);
+      localStorage.setItem('theme', 'dark')
     } else {
-      setTheme(themeData.defaultTheme)
+      setTheme(themeData.defaultTheme);
+      localStorage.removeItem('theme')
     }
   };
-
 
   return (
     <FormGroup>
@@ -75,7 +87,7 @@ export default function CustomizedSwitch() {
         control={
           <MaterialUISwitch 
             sx={{ m: 1 }} 
-            //defaultChecked 
+            checked={switchChecked} 
             onChange={e => handleChange(e)}
           />
         }

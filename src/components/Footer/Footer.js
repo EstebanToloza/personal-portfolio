@@ -18,11 +18,11 @@ function Footer() {
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
-                Made with  
+                Hecho con  
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
                     ❤
                 </span>
-                 by {shortname(headerData.name)}
+                 por {shortname(headerData.name)}
             </p>
         </div>
     )
