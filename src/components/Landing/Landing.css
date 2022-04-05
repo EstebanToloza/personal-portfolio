@@ -124,10 +124,25 @@
 
   .lcr-buttonContainer {
     margin-top: 1rem;
-    flex-direction: column;
-    width: 200px;
+    width: 320px;
     height: 120px;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 769px) {
+  .lcr-buttonContainer {
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .lcr-buttonContainer a {
+    margin: auto;
+  }
+
+  .lcr-buttonContainer a button {
+    width: 180px;
   }
 }
 
@@ -147,13 +162,8 @@
 
   .lcr-buttonContainer {
     margin-top: 1rem;
-    flex-direction: column;
-    width: 200px;
     height: 120px;
     align-items: flex-start;
-  }
-  .lcr-buttonContainer button:nth-child(2) {
-    display: none;
   }
 }
 
@@ -208,13 +218,27 @@
     width: 90%;
   }
   .lcr-buttonContainer {
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    width: 320px;
   }
-  .lcr-buttonContainer button {
-    margin-top: -20%;
+  .lcr-buttonContainer a button {
+    width: 140px;
+  }
+}
+
+@media (max-width: 400px) {
+  .lcr-buttonContainer {
+    width: 100%;
+  }
+  .lcr-buttonContainer a button span {
+    font-size: 0.9rem;
+  }
+  .lcr-buttonContainer a button {
+    width: 130px;
   }
 }
 
