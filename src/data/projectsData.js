@@ -34,7 +34,7 @@ export const projectsData = [
         tags: ['WordPress', 'CSS', 'Elementor'],
         code: 'https://vivabeneimpdev.wpengine.com/',
         demo: 'https://vivabeneimpdev.wpengine.com/',
-        image: three
+        image: eight
     },
     {
         id: 4,
@@ -54,16 +54,17 @@ export const projectsData = [
         demo: 'https://estebantoloza.github.io/personal-portfolio/',
         image: four
     },
-    /* 
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
+        projectName: 'WordPress eCommerce',
+        projectDesc: 'Desarrollo de ecommerce para empresa de productos cosméticos. Integración con medios de pago. En proceso',
+        tags: ['WordPress', 'CSS', 'WooCommerce'],
+        code: 'https://dev-nua-demo.pantheonsite.io/',
+        demo: 'https://dev-nua-demo.pantheonsite.io/',
+        image: three
     },
+        /* 
+
     {
         id: 7,
         projectName: 'Stock Market App',
