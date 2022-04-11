@@ -180,7 +180,7 @@ function Landing() {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contacto
                                 </Button>
                             </NavLink>
                         </div>

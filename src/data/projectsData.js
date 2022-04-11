@@ -20,7 +20,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Sitio institucional',
+        projectName: 'Fletes Rosario',
         projectDesc: 'Sitio institucional para cooperativa de fletes de la ciudad de Rosario.',
         tags: ['HTML', 'Bootstrap', 'JavaScript'],
         code: 'https://github.com/EstebanToloza/fletes-rosario',
@@ -30,7 +30,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Viva Bene',
-        projectDesc: 'Desarrollo de sitio 100% personalizado de sitio web + blog con WordPress CMS.',
+        projectDesc: 'Desarrollo 100% personalizado de sitio web + blog con WordPress CMS.',
         tags: ['WordPress', 'CSS', 'Elementor'],
         code: 'https://vivabeneimpdev.wpengine.com/',
         demo: 'https://vivabeneimpdev.wpengine.com/',
@@ -45,15 +45,16 @@ export const projectsData = [
         demo: 'https://filtro-de-busquedas-de-objetos-con-react.netlify.app/',
         image: seven
     },
-    /* {
+    {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        projectName: 'Portfolio personal',
+        projectDesc: 'Desarrollo de portfolio personal con animaciones CSS y formulario de contacto, 100% responsive',
+        tags: ['React', 'ContextAPI', 'MaterialUI', 'SheetDB'],
+        code: 'https://github.com/EstebanToloza/personal-portfolio',
+        demo: 'https://estebantoloza.github.io/personal-portfolio/',
+        image: four
     },
+    /* 
     {
         id: 6,
         projectName: 'Uber Lite',
