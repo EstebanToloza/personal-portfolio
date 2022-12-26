@@ -171,7 +171,7 @@ function Contacts() {
         <div className="contacts-body">
           <div className="contacts-form">
             <form
-              /* onSubmit={handleContactForm} */ action="https://formsubmit.co/etsoweb@gmail.com"
+              /* onSubmit={handleContactForm} */ action="https://forms.un-static.com/forms/9a688522ce3152b5019611601b3a2457d974f32a"
               method="POST"
             >
               <div className="input-container">
